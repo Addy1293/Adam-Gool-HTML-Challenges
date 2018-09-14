@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nested tables</title>
+
+  </head>
+  <body>
+    <center><h1>Nested Table 1</h1></center>
+
+  <center>
+  <table id="table1" border="1" width="200" height="200">
+
+<tr>
+   <td align="center">1</td>
+   <td colspan="3" align="center">2</td>
+
+</tr>
+<tr>
+   <td rowspan="3" align="center">3</td>
+   <td align="center">4</td>
+   <td align="center">5</td>
+   <td rowspan="2" align="center">6</td>
+
+</tr>
+<tr>
+   <td align="center">7</td>
+   <td align="center">8</td>
+
+</tr>
+<tr>
+   <td colspan="2" align="center">9</td>
+   <td align="center">10</td>
+</tr>
+</center>
+
+</table>
+
+<br>
+
+<hr color="grey">
+
+<h2>Nested Table 2</h2>
+
+<style>
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+table, th, td {
+  border: 10px solid black;
+}
+</style>
+
+<table border="2" width=200 height=200>
+  <tr>
+    <td align="center">1</td>
+    <td colspan="2" align="center">2</td>
+
+</tr>
+
+<tr>
+  <td rowspan="2" align="center">3</td>
+
+  <td cellpadding="0px">
+    <table style="width: 100%;">
+      <tr>
+        <td align="center">4</td>
+        <td align="center">5</td>
+      </tr>
+
+      <tr>
+        <td align="center">7</td>
+        <td align="center">8</td>
+      </tr>
+
+    </table>
+  </td>
+  <td align="center">6</td>
+</tr>
+
+      <tr>
+        <td align="center">9</td>
+        <td align="center">10</td>
+      </tr>
+
+    </table>
+  </td>
+</tr>
+    </table
+
+
+  </body>
+</html>
